@@ -1,9 +1,9 @@
-package com.bristot.listinha.domain
+package com.bristot.listinha.domain.random
 
 import java.util.UUID
 import javax.inject.Inject
 
-class RandomUseCaseImpl @Inject constructor() : RandomUseCase {
+internal class RandomUseCaseImpl @Inject constructor() : RandomUseCase {
 
     override operator fun invoke(): String = UUID.randomUUID().toString()
 }

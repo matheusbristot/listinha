@@ -1,4 +1,4 @@
-package com.bristot.listinha.data.model
+package com.bristot.listinha.data.model.product
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable

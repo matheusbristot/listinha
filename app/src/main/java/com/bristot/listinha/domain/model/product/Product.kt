@@ -1,4 +1,4 @@
-package com.bristot.listinha.domain.model
+package com.bristot.listinha.domain.model.product
 
 data class Product(
     val id: String,

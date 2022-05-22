@@ -1,8 +1,8 @@
 package com.bristot.listinha.domain.products
 
-import com.bristot.listinha.data.model.ResourceResult
-import com.bristot.listinha.domain.model.Product
-import com.bristot.listinha.domain.model.ProductResult
+import com.bristot.listinha.data.model.product.ResourceResult
+import com.bristot.listinha.domain.model.product.Product
+import com.bristot.listinha.domain.model.product.ProductResult
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.FlowCollector
 import kotlinx.coroutines.flow.flow

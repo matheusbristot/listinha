@@ -1,7 +1,7 @@
-package com.bristot.listinha.data.mapper
+package com.bristot.listinha.data.mapper.product
 
-import com.bristot.listinha.data.model.ProductResponse
-import com.bristot.listinha.domain.model.Product
+import com.bristot.listinha.data.model.product.ProductResponse
+import com.bristot.listinha.domain.model.product.Product
 import javax.inject.Inject
 
 class ProductMapperImpl @Inject constructor() : ProductMapper {

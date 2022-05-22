@@ -1,4 +1,4 @@
-package com.bristot.listinha.domain.model
+package com.bristot.listinha.domain.model.product
 
 sealed interface ProductResult {
     object Empty : ProductResult

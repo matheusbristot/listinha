@@ -1,6 +1,6 @@
-package com.bristot.listinha.data.service
+package com.bristot.listinha.data.service.product
 
-import com.bristot.listinha.data.model.ProductResponse
+import com.bristot.listinha.data.model.product.ProductResponse
 import retrofit2.Response
 import retrofit2.http.GET
 

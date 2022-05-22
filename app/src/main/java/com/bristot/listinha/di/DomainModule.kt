@@ -1,7 +1,6 @@
 package com.bristot.listinha.di
 
-
-import com.bristot.listinha.data.repository.ProductRepositoryImpl
+import com.bristot.listinha.data.repository.product.ProductRepositoryImpl
 import com.bristot.listinha.domain.products.ProductRepository
 import dagger.Binds
 import dagger.Module

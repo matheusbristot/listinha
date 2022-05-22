@@ -1,4 +1,4 @@
-package com.bristot.listinha.data.model
+package com.bristot.listinha.data.model.product
 
 sealed class ResourceResult<out T>(val data: T?, val message: String?) {
 

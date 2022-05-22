@@ -1,7 +1,7 @@
 package com.bristot.listinha.domain.products
 
-import com.bristot.listinha.data.model.ResourceResult
-import com.bristot.listinha.domain.model.Product
+import com.bristot.listinha.data.model.product.ResourceResult
+import com.bristot.listinha.domain.model.product.Product
 import kotlinx.coroutines.flow.Flow
 
 interface ProductRepository {

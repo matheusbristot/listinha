@@ -1,10 +1,10 @@
-package com.bristot.listinha.data.repository
+package com.bristot.listinha.data.repository.product
 
-import com.bristot.listinha.data.mapper.ProductMapper
-import com.bristot.listinha.data.model.ResourceResult
+import com.bristot.listinha.data.mapper.product.ProductMapper
+import com.bristot.listinha.data.model.product.ResourceResult
 import com.bristot.listinha.data.network.NetworkService
-import com.bristot.listinha.data.service.ProductsService
-import com.bristot.listinha.domain.model.Product
+import com.bristot.listinha.data.service.product.ProductsService
+import com.bristot.listinha.domain.model.product.Product
 import com.bristot.listinha.domain.products.ProductRepository
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.FlowCollector

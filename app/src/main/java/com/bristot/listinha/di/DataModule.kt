@@ -1,7 +1,7 @@
 package com.bristot.listinha.di
 
 import com.bristot.listinha.data.builder.RetrofitBuilder
-import com.bristot.listinha.data.service.ProductsService
+import com.bristot.listinha.data.service.product.ProductsService
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
